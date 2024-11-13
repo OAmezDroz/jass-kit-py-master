@@ -71,4 +71,4 @@ jobs:
         with:
           app-name: 'JassWizard'
           slot-name: 'Production' # Remove if slots are not being used
-          startup-command: flask --app "examples/service/player_service.py" run --host=0.0.0.0 --port=8888
+          startup-command: python3.11 examples/service/player_service.py
