@@ -71,4 +71,4 @@ jobs:
         with:
           app-name: 'JassWizard'
           slot-name: 'Production' # Remove if slots are not being used
-          startup-command: python3.11 examples/service/player_service.py
+          startup-command: python examples/service/player_service.py
